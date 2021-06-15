@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #84e8dc;
+  background: linear-gradient(135deg, #84e8dc 0%, #f4ed8b 100%);
+}
+
+header {
+  padding: 0;
+}
+
+header h1 {
+  color: white;
+  text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 30px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .thumbex {
+  margin: 10px 20px 30px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 520px;
+  height: 300px;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  outline: 2px solid white;
+  outline-offset: -15px;
+  background-color: blue;
+  -webkit-box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .thumbex .thumbnail {
+  overflow: hidden;
+  min-width: 250px;
+  height: 300px;
+  position: relative;
+  opacity: 0.88;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.container .thumbex .thumbnail img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  height: 115%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.container .thumbex .thumbnail span {
+  position: absolute;
+  z-index: 2;
+  top: calc(150px - 20px);
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 50px;
+  margin: 0 45px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.container .thumbex .thumbnail:hover {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+
+.container .thumbex .thumbnail:hover span {
+  opacity: 0;
+}
+
+.mobile-navbar .menuBarContainer .navContainer ul li:hover .submenu-item,
+.mobile-navbar .menuBarContainer .navContainer ul li:focus .submenu-item {
+  padding: 20px;
+  background-color: #e1e1e1;
+  position: fixed;
+  display: block;
+}
+
+.mobile-navbar .menuBarContainer .navContainer ul li:hover .submenu-item li,
+.mobile-navbar .menuBarContainer .navContainer ul li:focus .submenu-item li {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

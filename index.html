@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="normalize.css" />
+		<title>Buzón Tehuacán</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Asap&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body class="main-body">
+		<header>
+			<!-- Header section -->
+			<div class="mobile-navbar">
+				<a href="#" class="buttom-menu">
+					<span class="button-toggle"></span>
+					<!-- <i class="fas fa-bars"></i> -->
+				</a>
+				<img src="src/img/logo.png" alt="" width="100px" />
+				<a href="#" class="buttom-search">
+					<i class="fas fa-search"></i>
+				</a>
+				<div class="menuBarContainer">
+					<nav class="navContainer">
+						<ul class="main-menu">
+							<li class="item-menu-m">
+								<a href="#" class="subitem">Inicio</a>
+
+								<!-- <ul class="submenu-item">
+									<li><a href="#">Submenu1</a></li>
+									<li><a href="#">Submenu2</a></li>
+									<li><a href="#">Submenu3</a></li>
+								</ul> -->
+							</li>
+							<li class="item-menu-m">
+								<a href="#" class="subitem">Buzón</a>
+
+								<ul class="submenu-item">
+									<li><a href="#">Hacer sugerencia</a></li>
+									<li><a href="#">Redactar una queja</a></li>
+									<li><a href="#">Iniciar una conversación</a></li>
+								</ul>
+							</li>
+							<li class="item-menu-m">
+								<a href="#" class="subitem">Descubre</a>
+							</li>
+							<li class="item-menu-m"><a href="#" class="subitem">Guías</a></li>
+							<!-- <li class="item-menu-m"><a href="#" class="subitem">Menu 4</a></li> -->
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div id="mobile-sidebar" class="mobile-sidebar">
+				<nav class="mobile-navegation main-nav">
+					<ul class="main-menu">
+						<li class="item-menu-m">
+							<a href="#" class="subitem">Inicio</a>
+							<!-- <button class="button-item dropdown-toggle"></button>
+							<ul class="submenu-item">
+								<li><a href="#">Submenu1</a></li>
+								<li><a href="#">Submenu2</a></li>
+								<li><a href="#">Submenu3</a></li>
+							</ul> -->
+						</li>
+						<li class="item-menu-m">
+							<a href="#" class="subitem">Buzón</a>
+							<button
+								class="button-item dropdown-toggle dropdown-toggle2"
+							></button>
+							<ul class="submenu-item2">
+								<li><a href="#">Hacer sugerencia</a></li>
+								<li><a href="#">Redactar una queja</a></li>
+								<li><a href="#">Iniciar una conversación</a></li>
+							</ul>
+						</li>
+						<li class="item-menu-m">
+							<a href="#" class="subitem">Descubre</a>
+						</li>
+						<li class="item-menu-m"><a href="#" class="subitem">Guías</a></li>
+						<!-- <li class="item-menu-m"><a href="#" class="subitem">Menu 4</a></li> -->
+					</ul>
+				</nav>
+			</div>
+
+			<div class="header-image">
+				<div class="site-branding">
+					<h1 class="tittle-branding">
+						Buzón Tehuacán
+						<a href="" class="text-image"></a>
+					</h1>
+				</div>
+				<nav class="social-links">
+					<ul id="id-social-menu">
+						<li class="menu-item" id="menu-item">
+							<a href=""><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="menu-item" id="menu-item">
+							<a href=""><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="menu-item" id="menu-item">
+							<a href=""><i class="fab fa-pinterest"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Sections -->
+		<!-- Section Nav -->
+		<section class="sectionContainerNav">
+			<div class="section-nav">
+				<i class="far fa-newspaper icon-notice"></i>
+				<h3>Noticias</h3>
+			</div>
+
+			<div class="section-nav">
+				<i class="fas fa-book-open"></i>
+				<h3>Páginas</h3>
+			</div>
+
+			<div class="section-nav">
+				<i class="fas fa-book-reader"></i>
+				<h3>Aprende</h3>
+			</div>
+		</section>
+		<!-- Section Slider -->
+		<div class="bodySlider">
+			<div class="slider">
+				<div class="slider__inner">
+					<!-- Controls -->
+					<input
+						checked
+						type="radio"
+						name="slide"
+						class="control"
+						id="Slide1"
+					/>
+					<label for="Slide1" id="s1" class="slideControl"></label>
+					<input type="radio" name="slide" class="control" id="Slide2" />
+					<label for="Slide2" id="s2" class="slideControl"></label>
+					<input type="radio" name="slide" class="control" id="Slide3" />
+					<label for="Slide3" id="s3" class="slideControl"></label>
+					<!-- <input type="radio" name="slide" class="control" id="Slide4" />
+					<label for="Slide4" id="s4" class="slideControl"></label> -->
+
+					<!-- Content -->
+
+					<div class="slider__inner__overflow">
+						<span class="slider__slide testimonial">
+							<span class="testimonial__wrap">
+								<img
+									src="https://cdn-3.expansion.mx/dims4/default/7315239/2147483647/strip/true/crop/1600x900+0+0/resize/1800x1013!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F5a%2F8d%2F0e26f87c4736825fa66b144661bc%2Ffxm-puebla.jpeg"
+									alt="John Smith"
+									class="testimonial__avatar"
+								/>
+								<p class="testimonial__copy">Elecciones Tehuacán</p>
+								<span class="testimonial__author">2021</span>
+							</span>
+						</span>
+
+						<span class="slider__slide testimonial">
+							<span class="testimonial__wrap">
+								<img
+									src="https://www.periodicoenfoque.com.mx/images/NOTAS_2021/marzo/28marzo/Pedro-Tepole-1.jpg"
+									alt="John Smith"
+									class="testimonial__avatar"
+								/>
+								<p class="testimonial__copy">
+									Pedro Tepole gana alcaldía de Tehuacán y la coalición Juntos
+									Haremos Historia se lleva el carro completo en el municipio y
+									diputaciones.
+								</p>
+							</span>
+						</span>
+
+						<span class="slider__slide testimonial">
+							<span class="testimonial__wrap">
+								<img
+									src="https://www.meganoticias.mx/uploads/noticias/arribaran-mas-de-50-mil-contra-la-covid-19-a-tehuacan-249631.jpg"
+									alt="John Smith"
+									class="testimonial__avatar"
+								/>
+								<p class="testimonial__copy">
+									Arribarán más de 50 mil vacunas anticovid a Tehuacán
+								</p>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Section Tourism -->
+		<section class="sectionTurismContainer">
+			<br />
+			<br />
+
+			<div class="cardsTourism">
+				<div class="container">
+					<div class="cardsTourism">
+						<div class="thumbex">
+							<div class="thumbnail">
+								<a href="javascript:void(0)">
+									<img src="src/img/arq-teh.jpg" /><span
+										>Zonas Arqueologicas</span
+									></a
+								>
+							</div>
+						</div>
+						<div class="title-img-tourism">
+							<h3>Turimos Arquitectura</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Temporibus sed tempora eaque animi, odit veniam, maxime
+								exercitationem perferendis aliquam dicta eligendi commodi
+								blanditiis quam, at ut aspernatur suscipit consequuntur
+								cupiditate.
+							</p>
+							<a href="google.com.mx" target="_blank"
+								><button>Leer más</button></a
+							>
+						</div>
+					</div>
+					<div class="cardsTourism">
+						<div class="thumbex">
+							<div class="thumbnail">
+								<a href="javascript:void(0)"
+									><img src="src/img/catedral-teh.jpg" /><span
+										>Catedral</span
+									></a
+								>
+							</div>
+						</div>
+						<div class="title-img-tourism">
+							<h3>Turimos Arquitectura</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Temporibus sed tempora eaque animi, odit veniam, maxime
+								exercitationem perferendis aliquam dicta eligendi commodi
+								blanditiis quam, at ut aspernatur suscipit consequuntur
+								cupiditate.
+							</p>
+							<a href="google.com.mx" target="_blank"
+								><button>Leer más</button></a
+							>
+						</div>
+					</div>
+					<div class="cardsTourism">
+						<div class="thumbex">
+							<div class="thumbnail">
+								<a href="javascript:void(0)"
+									><img src="src/img/museum-teh.jpg" /><span>Museos</span></a
+								>
+							</div>
+						</div>
+						<div class="title-img-tourism">
+							<h3>Turimos Arquitectura</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Temporibus sed tempora eaque animi, odit veniam, maxime
+								exercitationem perferendis aliquam dicta eligendi commodi
+								blanditiis quam, at ut aspernatur suscipit consequuntur
+								cupiditate.
+							</p>
+							<a href="google.com.mx" target="_blank"
+								><button>Leer más</button></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-img-tourism">
+				<h2>TURISMO TEHUACÁN</h2>
+			</div>
+		</section>
+		<footer>
+			<div class="footer-copyright">
+				&copy; Desarrollado por Equipo FLJ
+				<br />
+				Instituto Tecnologíco de Tehuacán
+				<br />
+				Ingenieria En Sistemas Computacionales
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="code.js"></script>
+	</body>
+</html>
