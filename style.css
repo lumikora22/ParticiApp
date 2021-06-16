@@ -202,9 +202,9 @@ body.mobile-sidebar-active::before {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
-	content: '\E5C5';
+	/* content: '\E5C5';
 	padding: 4px 8px;
-	border-left: 1px solid #eee;
+	border-left: 1px solid #eee; */
 }
 .dropdown-toggle {
 	height: 42px;
