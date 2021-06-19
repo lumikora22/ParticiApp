@@ -49,7 +49,6 @@ header h1 {
 .container .thumbex {
   margin: 10px 20px 30px;
   width: 100%;
-  min-width: 250px;
   max-width: 520px;
   height: 300px;
   -ms-flex: 1;
@@ -65,7 +64,6 @@ header h1 {
 
 .container .thumbex .thumbnail {
   overflow: hidden;
-  min-width: 250px;
   height: 300px;
   position: relative;
   opacity: 0.88;
@@ -95,7 +93,7 @@ header h1 {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  padding: 10px 50px;
+  padding: 10px 5px;
   margin: 0 45px;
   text-align: center;
   font-size: 24px;

@@ -340,7 +340,7 @@ input[type='submit'] {
 }
 
 .footer-copyright {
-	height: 50px;
+	height: 100px;
 	margin-top: 20px;
 	padding: 20px;
 	background: #202020;
@@ -359,8 +359,16 @@ input[type='submit'] {
 	align-items: center;
 }
 
-/* Desktop specific */
-@media (max-width: 979px) {
+.card-body {
+	padding: 0px;
+}
+.card-body .container {
+	padding: 0px;
+}
+
+.buttonPostBoxContainer {
+	align-self: center;
+	margin: 10px 0px;
 }
 @media only screen and (min-width: 768px) {
 	.sectionContainerNav {
