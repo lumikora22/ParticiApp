@@ -367,8 +367,12 @@ input[type='submit'] {
 }
 
 .buttonPostBoxContainer {
-	align-self: center;
+	display: flex;
+	justify-content: center;
 	margin: 10px 0px;
+}
+.buttonPostBoxContainer button {
+	cursor: pointer;
 }
 @media only screen and (min-width: 768px) {
 	.sectionContainerNav {
@@ -560,7 +564,7 @@ input[type='submit'] {
 	.footer-copyright {
 		font-size: 20px;
 		text-align: center;
-		height: 100px;
+		height: 125px;
 	}
 }
 
